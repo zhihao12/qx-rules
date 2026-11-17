@@ -2,12 +2,12 @@
 [![Fork](https://img.shields.io/github/forks/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/zhihao12/qx-rules?label=Commits)](https://github.com/zhihao12/qx-rules/commits/main)
 [![](https://img.shields.io/github/last-commit/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/commits/main)
-![Rules](https://img.shields.io/badge/Rules-221629-brightgreen)
+![Rules](https://img.shields.io/badge/Rules-220923-brightgreen)
 ![Update](https://img.shields.io/badge/Update-每日自动-blue)
 
 ## qx-rules
 
-自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 20 张表、221,629 条规则。
+自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 19 张表、220,923 条规则。
 
 - 每张表对应配置里的一个策略组，订阅时用 `force-policy` 指定去向
 - `ai.list` 为原生三段格式（行尾带策略，资源解析器关闭时使用），其余为两段格式
@@ -27,7 +27,6 @@
 | [国内网站](https://raw.githubusercontent.com/zhihao12/qx-rules/main/asn.list) | 国内站点 IP 段，走直连 | [VirgilClyne/GetSomeFries](https://github.com/VirgilClyne/GetSomeFries) | 5,076 |
 | [苹果服务](https://raw.githubusercontent.com/zhihao12/qx-rules/main/apple.list) | App Store、iCloud、Apple Music、系统推送 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 1,870 |
 | [Google](https://raw.githubusercontent.com/zhihao12/qx-rules/main/google.list) | Google 搜索、Gmail、Google Play 等谷歌服务 | [MagicRule](https://magicrule.pages.dev) | 864 |
-| [微软](https://raw.githubusercontent.com/zhihao12/qx-rules/main/microsoft.list) | Office、OneDrive、Teams、Outlook、Bing | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 706 |
 | [游戏](https://raw.githubusercontent.com/zhihao12/qx-rules/main/games.list) | Steam、Epic、PlayStation、Xbox、Nintendo 等游戏平台 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 568 |
 | [流媒体](https://raw.githubusercontent.com/zhihao12/qx-rules/main/streaming.list) | YouTube、Netflix、Disney+、Max、Prime Video 等影音平台 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) + [MagicRule](https://magicrule.pages.dev) | 426 |
 | [兜底分流](https://raw.githubusercontent.com/zhihao12/qx-rules/main/fallback.list) | 没被其他表命中的境外域名 | [ConnersHua/RuleGo](https://github.com/ConnersHua/RuleGo) | 398 |

@@ -1,6 +1,6 @@
 # fallback.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-17 16:56:52
-# rules: 379
+# generated: 2026-11-17 17:14:00
+# rules: 387
 host-suffix, 500px.com
 host-suffix, 9cache.com
 host-suffix, 9gag.com
@@ -292,6 +292,11 @@ host-suffix, oculuscdn.com
 host-suffix, readyatdawn.com
 host-suffix, rocksdb.org
 host-keyword, .facebook.
+host-suffix, aka.ms
+host-suffix, onedrive.live.com
+host-suffix, streaming.mediaservices.windows.net
+host, az416426.vo.msecnd.net
+host, az668014.vo.msecnd.net
 host-suffix, pinimg.com
 host-keyword, .pinterest.
 host-suffix, pixiv.net
@@ -362,6 +367,7 @@ host-suffix, zoominfo.com
 host-suffix, zoom.us
 host, addons.mozilla.org
 host, community.oneplus.com
+host, wego.here.com
 host, login.alibaba.com
 host, merchant-rating.alibaba.com
 host-suffix, appsto.re // apple url shortener
@@ -378,5 +384,7 @@ host, apple-relay.fastly-edge.com
 host, cp4.cloudflare.com
 host, c.mi.com
 host, new.c.mi.com
+host-suffix, bing.com
 host-suffix, linkedin.com
 host-suffix, licdn.com
+host-suffix, msn.com
