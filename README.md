@@ -2,12 +2,12 @@
 [![Fork](https://img.shields.io/github/forks/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/zhihao12/qx-rules?label=Commits)](https://github.com/zhihao12/qx-rules/commits/main)
 [![](https://img.shields.io/github/last-commit/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/commits/main)
-![Rules](https://img.shields.io/badge/Rules-221642-brightgreen)
+![Rules](https://img.shields.io/badge/Rules-221629-brightgreen)
 ![Update](https://img.shields.io/badge/Update-每日自动-blue)
 
 ## qx-rules
 
-自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 22 张表、221,642 条规则。
+自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 20 张表、221,629 条规则。
 
 - 每张表对应配置里的一个策略组，订阅时用 `force-policy` 指定去向
 - `ai.list` 为原生三段格式（行尾带策略，资源解析器关闭时使用），其余为两段格式
@@ -43,8 +43,6 @@
 | [规则修正](https://raw.githubusercontent.com/zhihao12/qx-rules/main/unbreak.list) | 被广告表误伤的域名放行 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) | 33 |
 | [Github分流](https://raw.githubusercontent.com/zhihao12/qx-rules/main/proxy.list) | GitHub 及相关域名 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 31 |
 | [X](https://raw.githubusercontent.com/zhihao12/qx-rules/main/x.list) | X（原 Twitter） | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 31 |
-| [哔哩哔哩](https://raw.githubusercontent.com/zhihao12/qx-rules/main/bilibili.list) | 哔哩哔哩 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) | 11 |
-| [狂野飙车](https://raw.githubusercontent.com/zhihao12/qx-rules/main/gameloft.list) | 狂野飙车 9 | 本地自维护 | 2 |
 
 ## 2️⃣ 在 Quantumult X 里引用
 
@@ -75,7 +73,7 @@ https://raw.githubusercontent.com/zhihao12/qx-rules/main/meta.list, tag=Meta, fo
 | 百度网盘净化与倍速 | 百度网盘去广告、倍速播放 | [ddgksf2013](https://github.com/ddgksf2013) |
 | 微信解锁被屏蔽的 URL | 微信内打开被屏蔽链接 | [zZPiglet](https://github.com/ddgksf2013/Rewrite) |
 | BoxJS | 订阅与脚本管理面板 | [chavyleung/scripts](https://github.com/chavyleung/scripts) |
-| Spotify 音乐 VIP | Spotify 音质解锁（≤高） | [app2smile/rules](https://github.com/app2smile/rules) |
-| 波点音乐会员 | 波点音乐会员与去广告 | [WeiGiegie/666](https://github.com/WeiGiegie/666) |
+| Spotify 增强 | Spotify 播放与音质增强 | [app2smile/rules](https://github.com/app2smile/rules) |
+| 波点音乐增强 | 波点音乐去广告与播放增强 | [WeiGiegie/666](https://github.com/WeiGiegie/666) |
 | 红果穿山甲接口 | 红果短剧广告接口空响应 | 本地自维护 |
-| 其他增强 | Swiftgram 增强、小红书发帖时间、桌面组件、iOS 定位伪装 | [ddgksf2013](https://github.com/ddgksf2013)、[meichiny](https://github.com/meichiny/rednote-feed-time)、[SylvanRoe](https://github.com/SylvanRoe/Scripting)、[cyberhandyman](https://cyberhandyman-ioslocspo.cyberhandyman.workers.dev) |
+| 其他增强 | Swiftgram 增强、小红书发帖时间、桌面组件 | [ddgksf2013](https://github.com/ddgksf2013)、[meichiny](https://github.com/meichiny/rednote-feed-time)、[SylvanRoe](https://github.com/SylvanRoe/Scripting) |
