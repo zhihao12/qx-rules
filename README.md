@@ -1,4 +1,4 @@
-# qx-rulex
+# qx-rules
 
 Quantumult X 分流规则表合集，由生成器每日自动合并公开规则源、去重后推送。
 
