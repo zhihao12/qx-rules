@@ -5,7 +5,7 @@
 ![Rules](https://img.shields.io/badge/Rules-220334-brightgreen)
 ![Update](https://img.shields.io/badge/Update-每日自动-blue)
 
-## QX 规则自留地
+## qx-rules
 
 自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 20 张表、220,334 条规则。
 
