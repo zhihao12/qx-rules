@@ -62,6 +62,8 @@ https://raw.githubusercontent.com/zhihao12/qx-rules/main/meta.list, tag=Meta, fo
 
 ## 4️⃣ 重写（懒人配置已整套带上）
 
+整套重写合集文件：[QuantumultX_Rewrite.conf](https://raw.githubusercontent.com/zhihao12/qx-rules/main/QuantumultX_Rewrite.conf)，含全部远程订阅与本地重写，并入自己的配置即可用。
+
 | 重写 | 用途 | 来源 |
 | --- | --- | --- |
 | 微博去广告 | 微博 App 去广告 | [ddgksf2013/Rewrite](https://github.com/ddgksf2013/Rewrite) |
