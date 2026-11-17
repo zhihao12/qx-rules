@@ -1,0 +1,40 @@
+# spotify.list | 自建订阅表（gen.py 生成，勿手改）
+# generated: 2026-11-17 16:06:28
+# rules: 37
+host, adstudio-assets.scdn.co
+host, audio-ak-spotify-com.akamaized.net
+host, audio4-ak-spotify-com.akamaized.net
+host, bloodhound.spotify.com
+host, heads-ak-spotify-com.akamaized.net
+host, heads4-ak-spotify-com.akamaized.net
+host, spotify.map.fastly.net
+host, spotify.map.fastlylb.net
+host-suffix, audio-ak-spotify-com.akamaized.net
+host-suffix, byspotify.com
+host-suffix, heads4-ak-spotify-com.akamaized.net
+host-suffix, lifeatspotify.com
+host-suffix, pscdn.co
+host-suffix, scdn.co
+host-suffix, spoti.fi
+host-suffix, spotify-com.akamaized.net
+host-suffix, spotify-everywhere.com
+host-suffix, spotify.app.link
+host-suffix, spotify.com
+host-suffix, spotify.com.edgesuite.net
+host-suffix, spotify.design
+host-suffix, spotify.link
+host-suffix, spotifycdn.com
+host-suffix, spotifycdn.net
+host-suffix, spotifycharts.com
+host-suffix, spotifycodes.com
+host-suffix, spotifyforbrands.com
+host-suffix, spotifyforvendors.com
+host-suffix, spotifyjobs.com
+host-suffix, spotilocal.com
+host-suffix, tospotify.com
+host-keyword, -spotify-
+host-keyword, -spotify-com
+host-keyword, spotify
+host-keyword, spotify.com
+USER-AGENT,Spotify*,Spotify
+ip-cidr, 35.186.224.47/32

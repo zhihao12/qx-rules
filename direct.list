@@ -1,0 +1,60 @@
+# direct.list | 自建订阅表（gen.py 生成，勿手改）
+# generated: 2026-11-17 16:06:28
+# rules: 57
+host-suffix, icbc.com.cn
+host-suffix, ccb.com
+host-suffix, abchina.com
+host-suffix, boc.cn
+host-suffix, bankcomm.com
+host-suffix, psbc.com
+host-suffix, cmbchina.com
+host-suffix, spdb.com.cn
+host-suffix, pingan.com.cn
+host-suffix, cib.com.cn
+host-suffix, cmbc.com.cn
+host-suffix, cebbank.com
+host-suffix, citicbank.com
+host-suffix, hxb.com.cn
+host-suffix, alipay.com
+host-suffix, alipayobjects.com
+host-suffix, unionpay.com
+host-suffix, 95516.com
+host-suffix, 10086.cn
+host, dl.wechat.com
+host, dldir1.qq.com
+host, sgfindershort.wechat.com
+host, sgilinkshort.wechat.com
+host, sglong.wechat.com
+host, sgminorshort.wechat.com
+host, sgquic.wechat.com
+host, sgshort.wechat.com
+host, slife.xy-asia.com
+host, tencentmap.wechat.com
+host, vweixinf.tc.qq.com
+host, weixin110.qq.com
+host, wup.imtt.qq.com
+host, wx.tenpay.com
+host, wxapp.tc.qq.com
+host-suffix, iot-tencent.com
+host-suffix, lbs.gtimg.com
+host-suffix, map.qq.com
+host-suffix, qlogo.cn
+host-suffix, qpic.cn
+host-suffix, servicewechat.com
+host-suffix, tenpay.com
+host-suffix, vweixinthumb.tc.qq.com
+host-suffix, wechat.com
+host-suffix, wechatlegal.net
+host-suffix, wechatos.net
+host-suffix, wechatpay.com
+host-suffix, weixin.com
+host-suffix, weixin.qq.com
+host-suffix, weixinbridge.com
+host-suffix, weixinsxy.com
+host-suffix, wx.gtimg.com
+host-suffix, wx.qq.com
+host-suffix, wxapp.tc.qq.com
+host-suffix, wxs.qq.com
+USER-AGENT,MicroMessenger*,WeChat
+USER-AGENT,WeChat*,WeChat
+IP-ASN,132203,WeChat
