@@ -1,6 +1,6 @@
 # ai.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-17 17:23:01
-# rules: 308
+# generated: 2026-11-18 17:23:01
+# rules: 309
 host-suffix, firefly.adobe.com, Ai
 host-suffix, firefly.adobe.io, Ai
 host, aws-language-servers.us-east-1.amazonaws.com, Ai
@@ -140,6 +140,7 @@ host-suffix, duck.ai, Ai
 host-suffix, eigent.ai, Ai
 host-suffix, elevenlabs.com, Ai
 host-suffix, elevenlabs.io, Ai
+host-suffix, elevenlabsusercontent.com, Ai
 host-suffix, factory.ai, Ai
 host-suffix, fireworks.ai, Ai
 host-suffix, gamma.app, Ai
