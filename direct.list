@@ -1,6 +1,6 @@
 # direct.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 57
+# generated: 2026-11-19 16:27:30
+# rules: 56
 host-suffix, icbc.com.cn
 host-suffix, ccb.com
 host-suffix, abchina.com
@@ -32,7 +32,6 @@ host, slife.xy-asia.com
 host, tencentmap.wechat.com
 host, vweixinf.tc.qq.com
 host, weixin110.qq.com
-host, wup.imtt.qq.com
 host, wx.tenpay.com
 host, wxapp.tc.qq.com
 host-suffix, iot-tencent.com

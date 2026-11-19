@@ -1,6 +1,6 @@
 # microsoft.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 706
+# generated: 2026-11-19 16:27:30
+# rules: 698
 host, bg.v4.a.dl.ws.microsoft.com
 host, bg4.v4.a.dl.ws.microsoft.com
 host, bj1.api.bing.com
@@ -26,7 +26,6 @@ host, sdx.microsoft.com
 host, silverlight.dlservice.microsoft.com
 host, slupdate.dlservice.microsoft.com
 host, statics-marketingsites-eas-ms-com.akamaized.net
-host, statics-marketingsites-eus-ms-com.akamaized.net
 host, statics-marketingsites-wcus-ms-com.akamaized.net
 host, storeedgefd.dsx.mp.microsoft.com
 host, vsmarketplacebadge.apphb.com
@@ -40,7 +39,6 @@ host, edge.microsoft.com
 host, iecvlist.microsoft.com
 host, msedge.api.cdp.microsoft.com
 host, oneclient.sfx.ms
-host, teams.events.data.microsoft.com
 host-suffix, 1drv.ms
 host-suffix, 21vbc.com
 host-suffix, 21vbluecloud.com
@@ -221,7 +219,6 @@ host-suffix, engkoo.com
 host-suffix, evoke-windowsservices-tas.msedge
 host-suffix, exp-tas.com
 host-suffix, explorebing.com
-host-suffix, fabric.io
 host-suffix, fasttrackreadysupport.com
 host-suffix, femalefounderscomp.com
 host-suffix, flipwithsurface.com
@@ -356,7 +353,6 @@ host-suffix, microsoft365.com
 host-suffix, microsoftaccountguard.com
 host-suffix, microsoftadc.com
 host-suffix, microsoftads.com
-host-suffix, microsoftadvertising.com
 host-suffix, microsoftadvertisingregionalawards.com
 host-suffix, microsoftaffiliates.com
 host-suffix, microsoftapp.net
@@ -543,7 +539,6 @@ host-suffix, onmicrosoft.com
 host-suffix, onmschina.cn
 host-suffix, opentranslatorstothings.org
 host-suffix, opticsforthecloud.net
-host-suffix, optimizely.com
 host-suffix, orithegame.com
 host-suffix, osdinfra.net
 host-suffix, outingsapp.com
@@ -600,8 +595,6 @@ host-suffix, sqlserveronlinux.com
 host-suffix, staffhub.ms
 host-suffix, start.com
 host-suffix, statics-marketingsites-eas-ms-com.akamaized.net
-host-suffix, statics-marketingsites-eus-ms-com.akamaized.net
-host-suffix, statics-marketingsites-neu-ms-com.akamaized.net
 host-suffix, statics-marketingsites-wcus-ms-com.akamaized.net
 host-suffix, successwithteams.com
 host-suffix, surface.com
@@ -624,7 +617,6 @@ host-suffix, tryfunctions.com
 host-suffix, unity3dcloud.cn
 host-suffix, unlocklimitlesslearning.com
 host-suffix, userpxt.io
-host-suffix, uservoice.com
 host-suffix, uwpcommunitytoolkit.com
 host-suffix, vfsforgit.com
 host-suffix, vfsforgit.org

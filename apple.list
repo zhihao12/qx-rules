@@ -1,6 +1,6 @@
 # apple.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 1870
+# generated: 2026-11-19 16:27:30
+# rules: 1867
 host, apps.apple.com
 host, a1.mzstatic.com
 host, a2.mzstatic.com
@@ -79,7 +79,6 @@ host, download.developer.apple.com
 host, downloaddispatch.itunes.apple.com
 host, e16991.b.akamaiedge.net
 host, edge.apple
-host, experiments.apple.com
 host, fides-pol.apple.com
 host, gateway.icloud.com
 host, gs-loc-cn.apple.com
@@ -1257,7 +1256,6 @@ host-suffix, quicktime.com.au
 host-suffix, quicktime.eu
 host-suffix, quicktime.net
 host-suffix, quicktime.tv
-host-suffix, qwapi.com
 host-suffix, rbsgr.com
 host-suffix, reform-apple.com
 host-suffix, repsneakermall.com
@@ -1454,7 +1452,6 @@ host-suffix, appstore.my
 host-suffix, appstore.ph
 host-suffix, appstoreapple.cn
 host-suffix, asto.re
-host-suffix, crashlytics.com
 host-suffix, darwinsource.com
 host-suffix, darwinsource.org
 host-suffix, darwinsourcecode.com

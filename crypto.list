@@ -1,6 +1,6 @@
 # crypto.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 243
+# generated: 2026-11-19 16:27:30
+# rules: 242
 host-suffix, bitget.com
 host-suffix, bnappzh.co
 host-suffix, bnbzh.ac
@@ -74,7 +74,6 @@ host-suffix, bmwweb.solutions
 host-suffix, bnappweb.black
 host-suffix, bnbchain.org
 host-suffix, bnbstatic.com
-host-suffix, bntrace.com
 host-suffix, bsappapi.cc
 host-suffix, bsappapi.com
 host-suffix, bscdnweb.com

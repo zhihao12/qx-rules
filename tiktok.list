@@ -1,6 +1,6 @@
 # tiktok.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 57
+# generated: 2026-11-19 16:27:30
+# rules: 56
 host, lf16-effectcdn.byteeffecttos-g.com
 host, lf16-pkgcdn.pitaya-clientai.com
 host, p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
@@ -16,7 +16,6 @@ host-suffix, capcutstatic.com
 host-suffix, ibytedtos.com
 host-suffix, ibyteimg.com
 host-suffix, ipstatp.com
-host-suffix, isnssdk.com
 host-suffix, muscdn.com
 host-suffix, musical.ly
 host-suffix, sgpstatp.com

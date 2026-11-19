@@ -1,6 +1,6 @@
 # games.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 568
+# generated: 2026-11-19 16:27:30
+# rules: 567
 host, eaasserts-a.akamaihd.net
 host, originasserts.akamaized.net
 host, gog.salesmanago.com
@@ -229,6 +229,7 @@ host-suffix, lb-cdn.maj-soul.com
 host-suffix, lb-hw.maj-soul.com
 host-suffix, lb-sy.maj-soul.com
 host-suffix, lb-v2.maj-soul.com
+host-suffix, majsoul-hk-client.cn-hongkong.log.aliyuncs.com
 host-suffix, nentindo.net
 host-suffix, sony.com
 host-suffix, avatargarenanow-a.akamaihd.net
@@ -381,7 +382,6 @@ host-suffix, playstation.net
 host-suffix, playstationnetwork.com
 host-suffix, sonyentertainmentnetwork.com
 host-suffix, api-priconne-redive.cygames.jp
-host-suffix, omotenashi.cygames.jp
 host-suffix, prd-priconne-redive.akamaized.net
 host-suffix, championshipseriesleague.com
 host-suffix, convrgencegame.com
@@ -486,7 +486,6 @@ host-suffix, steamstat.us
 host-suffix, steamstatic.com
 host-suffix, steamstatic.com.8686c.com
 host-suffix, steamstore-a.akamaihd.net
-host-suffix, steamunlocked.net
 host-suffix, steamusercontent-a.akamaihd.net
 host-suffix, steamuserimages-a.akamaihd.net
 host-suffix, steamvideo-a.akamaihd.net

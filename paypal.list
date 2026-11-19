@@ -1,6 +1,6 @@
 # paypal.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 248
+# generated: 2026-11-19 16:27:30
+# rules: 247
 host-suffix, account-paypal.info
 host-suffix, account-paypal.net
 host-suffix, account-paypal.org
@@ -219,7 +219,6 @@ host-suffix, pypl.tv
 host-suffix, s-xoom.com
 host-suffix, secure-paypal.info
 host-suffix, securepaypal.info
-host-suffix, simility.com
 host-suffix, sslpaypal.org
 host-suffix, swiftbank.info
 host-suffix, swiftbank.us

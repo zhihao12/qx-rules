@@ -1,9 +1,7 @@
 # google.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 864
-host, 2mdn.net
+# generated: 2026-11-19 16:27:30
+# rules: 834
 host, android.googlesource.com
-host, app-measurement-cn.com
 host, avail.googleflights.net
 host, c.android.clients.google.com
 host, c.pki.goog
@@ -15,7 +13,6 @@ host, cn.widevine.com
 host, connectivitycheck.gstatic.com
 host, crl.pki.goog
 host, crls.pki.goog
-host, dartsearch-cn.net
 host, dg-meta.video.google.com
 host, download.mlcc.google.com
 host, download.tensorflow.google.com
@@ -37,16 +34,12 @@ host, g1.gstatic.com
 host, g2.gstatic.com
 host, g3.gstatic.com
 host, gonglchuangl.net
-host, gongyichuangyi.net
 host, google-ohttp-relay-safebrowsing.fastly-edge.com
 host, googleapis-cn.com
 host, googleapps-cn.com
-host, googleflights-cn.net
-host, googlesyndication-cn.com
 host, googletraveladservices-cn.com
 host, gstatic-cn.com
 host, gstaticadssl.l.google.com
-host, gtm.oasisfeng.com
 host, i.pki.goog
 host, imasdk.googleapis.com
 host, lens.l.google.com
@@ -79,7 +72,6 @@ host, redirector.offline-maps.gvt1.com
 host, redirector.snap.gvt1.com
 host, redirector.xn--ngstr-lra8j.com
 host, safebrowsing-cache.google.com
-host, safebrowsing.googleapis.com
 host, scholar.google.ae
 host, scholar.google.at
 host, scholar.google.be
@@ -169,11 +161,9 @@ host, www.gstatic.com
 host, www.pxcc.com
 host, www.recaptcha-cn.net
 host, www.recaptcha.net
-host-suffix, 0emm.com
 host-suffix, 1e100.net
 host-suffix, 1ucrs.com
 host-suffix, 265.com
-host-suffix, 2mdn.net
 host-suffix, 466453.com
 host-suffix, abc.xyz
 host-suffix, actifio.com
@@ -188,7 +178,6 @@ host-suffix, androidtv.com
 host-suffix, angulardart.org
 host-suffix, api.ai
 host-suffix, apigee.com
-host-suffix, app-measurement-cn.com
 host-suffix, app-measurement.net
 host-suffix, appbridge.ca
 host-suffix, appbridge.io
@@ -211,9 +200,7 @@ host-suffix, blogger.googleusercontent.com
 host-suffix, blogspot.ae
 host-suffix, blogspot.al
 host-suffix, blogspot.am
-host-suffix, blogspot.ba
 host-suffix, blogspot.be
-host-suffix, blogspot.bg
 host-suffix, blogspot.bj
 host-suffix, blogspot.ca
 host-suffix, blogspot.cf
@@ -258,7 +245,6 @@ host-suffix, blogspot.jp
 host-suffix, blogspot.kr
 host-suffix, blogspot.li
 host-suffix, blogspot.lt
-host-suffix, blogspot.lu
 host-suffix, blogspot.md
 host-suffix, blogspot.mk
 host-suffix, blogspot.mx
@@ -275,10 +261,8 @@ host-suffix, blogspot.ru
 host-suffix, blogspot.se
 host-suffix, blogspot.sg
 host-suffix, blogspot.si
-host-suffix, blogspot.sk
 host-suffix, blogspot.sn
 host-suffix, blogspot.td
-host-suffix, blogspot.tw
 host-suffix, blogspot.ug
 host-suffix, blogspot.vn
 host-suffix, brocaproject.com
@@ -322,7 +306,6 @@ host-suffix, codespot.com
 host-suffix, connectivitycheck.gstatic.com
 host-suffix, conscrypt.com
 host-suffix, conscrypt.org
-host-suffix, cookiechoices.org
 host-suffix, coova.com
 host-suffix, coova.net
 host-suffix, coova.org
@@ -336,12 +319,9 @@ host-suffix, cs4hs.com
 host-suffix, dart.dev
 host-suffix, dartlang.org
 host-suffix, dartpad.dev
-host-suffix, dartsearch-cn.net
-host-suffix, data-vocabulary.org
 host-suffix, dataliberation.org
 host-suffix, debug.com
 host-suffix, debugproject.com
-host-suffix, deja.com
 host-suffix, deps.dev
 host-suffix, deps.info
 host-suffix, devsitetest.how
@@ -353,7 +333,6 @@ host-suffix, digitalattackmap.com
 host-suffix, dl.google.com
 host-suffix, dl.l.google.com
 host-suffix, docs.new
-host-suffix, doubleclick.cn
 host-suffix, download.mlcc.google.com
 host-suffix, download.tensorflow.google.com
 host-suffix, episodic.com
@@ -415,7 +394,6 @@ host-suffix, golang.com
 host-suffix, golang.net
 host-suffix, golang.org
 host-suffix, gonglchuangl.net
-host-suffix, gongyichuangyi.net
 host-suffix, goo.gl
 host-suffix, googel.com
 host-suffix, googil.com
@@ -619,7 +597,6 @@ host-suffix, google.vg
 host-suffix, google.vu
 host-suffix, google.ws
 host-suffix, googleacquisitionmigration.com
-host-suffix, googleads.com
 host-suffix, googleapis-cn.com
 host-suffix, googleapis.cn
 host-suffix, googleapis.com
@@ -641,7 +618,6 @@ host-suffix, googleearth.com
 host-suffix, googlefiber.com
 host-suffix, googlefiber.net
 host-suffix, googlefinland.com
-host-suffix, googleflights-cn.net
 host-suffix, googlemail.com
 host-suffix, googlemaps.com
 host-suffix, googlemashups.com
@@ -653,7 +629,6 @@ host-suffix, googlescholar.com
 host-suffix, googlesource.com
 host-suffix, googlestore.com
 host-suffix, googlesverige.com
-host-suffix, googlesyndication-cn.com
 host-suffix, googletraveladservices-cn.com
 host-suffix, googleusercontent.com
 host-suffix, googleventures.com
@@ -668,10 +643,8 @@ host-suffix, gstatic.cn
 host-suffix, gstatic.com
 host-suffix, gstaticcnapps.cn
 host-suffix, gsuite.com
-host-suffix, gtm.oasisfeng.com
 host-suffix, gv.com
 host-suffix, gvt0.com
-host-suffix, gvt1-cn.com
 host-suffix, gvt2-cn.com
 host-suffix, gvt3.com
 host-suffix, gvt5.com
@@ -696,7 +669,6 @@ host-suffix, itasoftware.com
 host-suffix, j2objc.org
 host-suffix, jibemobile.com
 host-suffix, kaggle.com
-host-suffix, kaggle.io
 host-suffix, kaggle.net
 host-suffix, kaggleusercontent.com
 host-suffix, keyhole.com
@@ -707,7 +679,6 @@ host-suffix, lanternal.com
 host-suffix, like.com
 host-suffix, madewithcode.com
 host-suffix, material.io
-host-suffix, mdialog.com
 host-suffix, meet.new
 host-suffix, mfg-inspector.com
 host-suffix, mobileview.page
@@ -735,7 +706,6 @@ host-suffix, orbitera.com
 host-suffix, page.link
 host-suffix, pagespeedmobilizer.com
 host-suffix, pageview.mobi
-host-suffix, panoramio.com
 host-suffix, partylikeits1986.org
 host-suffix, paxlicense.org
 host-suffix, picasa.com

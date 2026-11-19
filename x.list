@@ -1,6 +1,6 @@
 # x.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 31
+# generated: 2026-11-19 16:27:30
+# rules: 30
 host-suffix, twittercdn.com
 host-suffix, cms-twdigitalassets.com
 host-suffix, periscope.tv
@@ -20,7 +20,6 @@ host-suffix, twitterinc.com
 host-suffix, twitteroauth.com
 host-suffix, twitterstat.us
 host-suffix, twtrdns.net
-host-suffix, twttr.com
 host-suffix, twttr.net
 host-suffix, twvid.com
 host-suffix, vine.co

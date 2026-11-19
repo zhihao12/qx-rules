@@ -1,11 +1,10 @@
 # ai.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 309
+# generated: 2026-11-19 16:27:30
+# rules: 302
 host-suffix, firefly.adobe.com, Ai
 host-suffix, firefly.adobe.io, Ai
 host, aws-language-servers.us-east-1.amazonaws.com, Ai
 host, aws-toolkit-language-servers.amazonaws.com, Ai
-host, client-telemetry.us-east-1.amazonaws.com, Ai
 host, codewhisperer.us-east-1.amazonaws.com, Ai
 host, cognito-identity.us-east-1.amazonaws.com, Ai
 host, idetoolkits-hostedfiles.amazonaws.com, Ai
@@ -42,7 +41,6 @@ IP-ASN,399358,global,no-resolve
 host, anthropic-com.ghost.io, Ai
 host, anthropic.auth0.com, Ai
 host, anthropic.com.cdn.cloudflare.net, Ai
-host, browser-intake-us5-datadoghq.com, Ai
 host, cdn.growthbook.io, Ai
 host, servd-anthropic-website.b-cdn.net, Ai
 host, storage.googleapis.com, Ai
@@ -58,7 +56,6 @@ host-suffix, lcicat.org, Ai
 host-suffix, lcicollections.org, Ai
 host-suffix, mcpservertest.online, Ai
 host-suffix, muthos.com, Ai
-host-suffix, sentry.io, Ai
 host-suffix, sillylittleguy.org, Ai
 host-keyword, datadog, Ai
 host-keyword, sentry, Ai
@@ -100,17 +97,14 @@ host, odc.officeapps.live.com, Ai
 host-suffix, copilot.microsoft.com, Ai
 host-suffix, githubcopilot.com, Ai
 host, api.msn.com, Ai
-host, api.statsig.com, Ai
 host, assets.msn.com, Ai
 host, copilot-proxy.githubusercontent.com, Ai
 host, copilot-workspace.githubnext.com, Ai
 host, copilotprodattachments.blob.core.windows.net, Ai
 host, gateway.bingviz.microsoft.net, Ai
 host, gateway.bingviz.microsoftapp.net, Ai
-host, in.appcenter.ms, Ai
 host, production-copilot-host-westus.webpubsub.azure.com, Ai
 host, self.events.data.microsoft.com, Ai
-host, static.cloudflareinsights.com, Ai
 host, sydney.bing.com, Ai
 host-suffix, algolia.net, Ai
 host-suffix, api.microsoftapp.net, Ai
@@ -250,7 +244,6 @@ host, openaiassets.blob.core.windows.net, Ai
 host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, Ai
 host, openaicomproductionae4b.blob.core.windows.net, Ai
 host, production-openaicom-storage.azureedge.net, Ai
-host-suffix, api.statsig.com, Ai
 host-suffix, chatgpt.site, Ai
 host-suffix, host.livekit.cloud, Ai
 host-suffix, oaistatsig.com, Ai

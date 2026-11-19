@@ -1,6 +1,6 @@
 # streaming.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-19 13:53:20
-# rules: 426
+# generated: 2026-11-19 16:27:30
+# rules: 425
 host-suffix, crunchyroll.com
 host-suffix, hotstar.com
 host-suffix, viki.com
@@ -258,7 +258,6 @@ host-suffix, yt.be
 host-suffix, ytimg.com
 host, youtubei.googleapis.com
 host, yt3.ggpht.com
-host-suffix, ggpht.cn
 host-suffix, ggpht.com
 host-suffix, gvt1.com
 host-suffix, youtube.ae
