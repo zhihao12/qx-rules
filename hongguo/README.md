@@ -1,6 +1,6 @@
 # 红果去广告 · HongGuo AdBlock
 
-红果短剧（`com.phoenix.video`）去广告规则汇总。红果是字节的产品，本身没几个专属域名，广告全走字节共用体系：穿山甲 SDK 下发、zijieapi 广告 API、snssdk 路径广告、fqnovel 埋点。所以只盯「红果」字样是拦不干净的，本仓把红果与番茄系（同源体系）社区规则做了交叉验证后合并，并附一份真机验证过的「绝不拦截」放行清单。
+红果短剧（`com.phoenix.video`）去广告规则汇总。红果是字节的产品，本身没几个专属域名，广告全走字节共用体系：穿山甲 SDK 下发、zijieapi 广告 API、snssdk 路径广告、fqnovel 埋点。所以只盯「红果」字样是拦不干净的，本仓把能找到的红果与番茄系（同源体系）社区规则全部合并去重，做成一份全量订阅（分流 135 条），并附一份真机验证过的「绝不拦截」放行清单。
 
 ## 文件
 
@@ -59,15 +59,15 @@ https://raw.githubusercontent.com/zhihao12/qx-rules/main/hongguo/qx/hongguo-rewr
 
 ## 来源与致谢
 
-域名逐条对照以下公开来源交叉验证（2026-11-19 汇总），并叠加维护者本人的真机误杀记录：
+域名为全量合并以下公开来源并去重（2026-11-19 汇总），另叠加维护者自有 hongguo.list 生成表（126 条）与真机误杀记录：
 
 - [akiralereal/shadowrocket-toolkit](https://github.com/akiralereal/shadowrocket-toolkit) 红果模块（GPL-3.0）
 - [k6nfmm7dbr-commits/hongguo-lite](https://github.com/k6nfmm7dbr-commits/hongguo-lite) 红果短剧瘦身
 - [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) 红果果皮箱
 - [bluee1111/egern-hongguo-adblock](https://github.com/bluee1111/egern-hongguo-adblock)
 - [lzwsoldier/stash-hongguo-adblock](https://github.com/lzwsoldier/stash-hongguo-adblock) 与其上游 [azel-ko/stash-adblock-rules](https://github.com/azel-ko/stash-adblock-rules)
-- [spaoye/hongguo-adblock](https://github.com/spaoye/hongguo-adblock)（番茄 + 红果 Loon 插件，部分激进条目未采纳，见「绝不拦截」）
-- [QingRex/LoonKissSurge](https://github.com/QingRex/LoonKissSurge) 番茄小说去广告（可莉，部分条目与红果放行清单冲突，未采纳并已注明）
+- [spaoye/hongguo-adblock](https://github.com/spaoye/hongguo-adblock)（番茄 + 红果 Loon 插件，与基础服务放行冲突的条目未收，见「绝不拦截」）
+- [QingRex/LoonKissSurge](https://github.com/QingRex/LoonKissSurge) 番茄小说去广告（可莉，其中的基础服务条目未收，见「绝不拦截」）
 - doovvip/sublink-worker2 · HongGuo-Surge-Native（经 hongguo-lite 转引交叉验证）
 
 本仓只做汇总、筛选与格式适配，规则本身来自社区公开成果。仅供个人学习与自用。
