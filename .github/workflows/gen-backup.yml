@@ -40,7 +40,7 @@ jobs:
           cp out/*.list ./
           git config user.name "qx-rules bot"
           git config user.email "qx-rules@localhost"
-          git add -- '*.list'
+          git add -- *.list
           if git diff --cached --quiet; then
             echo "no changes"
             exit 0
