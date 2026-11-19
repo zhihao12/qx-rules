@@ -1,0 +1,49 @@
+name: gen-backup
+# 备用生成：主力生成器在 RakSmart 盒子上每日 06:23 (北京时间) 运行。
+# 本工作流 08:23 检查：若今天还没有新的 *.list 提交，就在 GitHub 云上补跑一轮，
+# 避免盒子单点。手动触发时可勾选 force 强制生成（用于验证备用链路）。
+on:
+  schedule:
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '跳过日期检查，强制生成一轮'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: 检查今天是否已有生成提交
+        id: check
+        run: |
+          last=$(git log -1 --format=%ct -- '*.list' || echo 0)
+          today=$(TZ=Asia/Shanghai date +%F)
+          lastday=$(TZ=Asia/Shanghai date -d "@$last" +%F)
+          echo "last list commit day: $lastday / today: $today / force: ${{ inputs.force }}"
+          if [ "${{ inputs.force }}" = "true" ] || [ "$lastday" != "$today" ]; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=no" >> "$GITHUB_OUTPUT"
+          fi
+      - name: 生成并推送
+        if: steps.check.outputs.run == 'yes'
+        run: |
+          python3 gen.py
+          rm -f ./*.list
+          cp out/*.list ./
+          git config user.name "qx-rules bot"
+          git config user.email "qx-rules@localhost"
+          git add -- '*.list'
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git commit -m "rules update by actions-backup $(TZ=Asia/Shanghai date '+%F %T')"
+          git push origin main
