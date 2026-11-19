@@ -134,6 +134,16 @@ sources:
     format: qx
     force_policy: reject
     out: adblock.list
+  - id: bm7ads
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list
+    format: qx
+    force_policy: reject
+    out: adblock.list
+  - id: heidai
+    url: https://github.com/217heidai/adblockfilters/releases/download/rule/adblockqx.conf
+    format: qx
+    force_policy: reject
+    out: adblock.list
   - id: wechat
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list
     format: qx

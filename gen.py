@@ -212,6 +212,30 @@ def main():
             print("ABORT: source %s 解析出 0 条规则" % src["id"])
             return 2
 
+    # 广告表清理名单（可选）：prune.txt 与本脚本同目录，每行一个域名，
+    # 由离线检测生成（僵尸域名加极小众域名）。仅作用于 adblock.list 的
+    # host / host-suffix 规则：规则域名自身或任一父域在名单内即剔除。
+    # 在影子消解之前过滤，被剔除的父域不再遮蔽名单外的子域规则。
+    prune_count = 0
+    prune_path = os.path.join(BASE, "prune.txt")
+    if os.path.exists(prune_path):
+        prune_set = set()
+        with open(prune_path, encoding="utf-8") as fh:
+            for line in fh:
+                d = line.strip().lower()
+                if d and not d.startswith("#"):
+                    prune_set.add(d)
+        if prune_set:
+            filtered = []
+            for rule in stream:
+                if rule["out"] == "adblock.list" and rule["type"] in ("host", "host-suffix") and any(
+                    a in prune_set for a in ancestors_or_self(rule["value"])
+                ):
+                    prune_count += 1
+                    continue
+                filtered.append(rule)
+            stream = filtered
+
     # 影子消解 + 透传去重（沿全局序）
     claimed_suf = set()
     claimed_host = set()
@@ -274,9 +298,10 @@ def main():
     for name in out_names:
         st = stats[name]
         comp = ",".join("%s=%d" % (k, v) for k, v in sorted(st["by_origin"].items()))
-        summary_parts.append(
-            "%s kept=%d shadow=%d dup=%d [%s]" % (name, st["kept"], st["shadow"], st["dup"], comp)
-        )
+        part = "%s kept=%d shadow=%d dup=%d [%s]" % (name, st["kept"], st["shadow"], st["dup"], comp)
+        if name == "adblock.list" and prune_count:
+            part += " pruned=%d" % prune_count
+        summary_parts.append(part)
     fetch_part = ",".join("%s=%s" % (k, v) for k, v in sorted(fetch_status.items()))
     log_line = "%s OK | %s | fetch: %s" % (started, " | ".join(summary_parts), fetch_part)
     print(log_line)

@@ -2,12 +2,12 @@
 [![Fork](https://img.shields.io/github/forks/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/network/members)
 [![Commit](https://img.shields.io/github/commit-activity/m/zhihao12/qx-rules?label=Commits)](https://github.com/zhihao12/qx-rules/commits/main)
 [![](https://img.shields.io/github/last-commit/zhihao12/qx-rules)](https://github.com/zhihao12/qx-rules/commits/main)
-![Rules](https://img.shields.io/badge/Rules-221871-brightgreen)
+![Rules](https://img.shields.io/badge/Rules-296343-brightgreen)
 ![Update](https://img.shields.io/badge/Update-每日自动-blue)
 
 ## qx-rules
 
-自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 21 张表、221,871 条规则。
+自用的 Quantumult X 分流规则合集。每天由生成器自动拉取各公开规则源，合并、跨表去重、消解影子规则后推送到本仓库，共 21 张表、296,343 条规则。
 
 - 每张表对应配置里的一个策略组，订阅时用 `force-policy` 指定去向
 - `ai.list` 为原生三段格式（行尾带策略，资源解析器关闭时使用），其余为两段格式
@@ -23,27 +23,27 @@
 
 | 分流 | 对应 App / 网站 | 来源 | 条数 |
 | --- | --- | --- | ---: |
-| [广告终结者](https://raw.githubusercontent.com/zhihao12/qx-rules/main/adblock.list) | 全网广告、追踪与弹窗域名 | [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) | 210,647 |
+| [广告终结者](https://raw.githubusercontent.com/zhihao12/qx-rules/main/adblock.list) | 全网广告、追踪与弹窗域名 | [Cats-Team/AdRules](https://github.com/Cats-Team/AdRules) + [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 三源合并，生成时剔除僵尸域名 | 285,178 |
 | [国内网站](https://raw.githubusercontent.com/zhihao12/qx-rules/main/asn.list) | 国内站点 IP 段，走直连 | [VirgilClyne/GetSomeFries](https://github.com/VirgilClyne/GetSomeFries) | 5,076 |
-| [苹果服务](https://raw.githubusercontent.com/zhihao12/qx-rules/main/apple.list) | App Store、iCloud、Apple Music、系统推送 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 1,870 |
-| [Google](https://raw.githubusercontent.com/zhihao12/qx-rules/main/google.list) | Google 搜索、Gmail、Google Play 等谷歌服务 | [MagicRule](https://magicrule.pages.dev) | 864 |
-| [微软](https://raw.githubusercontent.com/zhihao12/qx-rules/main/microsoft.list) | Office、OneDrive、Teams、Outlook、Bing | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 706 |
-| [游戏](https://raw.githubusercontent.com/zhihao12/qx-rules/main/games.list) | Steam、Epic、PlayStation、Xbox、Nintendo 等游戏平台 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 568 |
-| [流媒体](https://raw.githubusercontent.com/zhihao12/qx-rules/main/streaming.list) | YouTube、Netflix、Disney+、Max、Prime Video 等影音平台 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) + [MagicRule](https://magicrule.pages.dev) | 426 |
-| [兜底分流](https://raw.githubusercontent.com/zhihao12/qx-rules/main/fallback.list) | 没被其他表命中的境外域名 | [ConnersHua/RuleGo](https://github.com/ConnersHua/RuleGo) | 379 |
-| [Ai](https://raw.githubusercontent.com/zhihao12/qx-rules/main/ai.list) | ChatGPT、Claude、Gemini、Copilot 等 AI 服务 | [VPSDance](https://github.com/VPSDance/ai-proxy-rules) | 308 |
-| [PayPal](https://raw.githubusercontent.com/zhihao12/qx-rules/main/paypal.list) | PayPal、Venmo、Braintree 等支付域名 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 248 |
-| [交易所](https://raw.githubusercontent.com/zhihao12/qx-rules/main/crypto.list) | Binance、OKX、Bybit、Coinbase 等交易所与钱包 | [MagicRule](https://magicrule.pages.dev) + 本地补遗 | 243 |
+| [苹果服务](https://raw.githubusercontent.com/zhihao12/qx-rules/main/apple.list) | App Store、iCloud、Apple Music、系统推送 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 1,867 |
+| [Google](https://raw.githubusercontent.com/zhihao12/qx-rules/main/google.list) | Google 搜索、Gmail、Google Play 等谷歌服务 | [MagicRule](https://magicrule.pages.dev) | 834 |
+| [微软](https://raw.githubusercontent.com/zhihao12/qx-rules/main/microsoft.list) | Office、OneDrive、Teams、Outlook、Bing | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 698 |
+| [游戏](https://raw.githubusercontent.com/zhihao12/qx-rules/main/games.list) | Steam、Epic、PlayStation、Xbox、Nintendo 等游戏平台 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 567 |
+| [流媒体](https://raw.githubusercontent.com/zhihao12/qx-rules/main/streaming.list) | YouTube、Netflix、Disney+、Max、Prime Video 等影音平台 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) + [MagicRule](https://magicrule.pages.dev) | 425 |
+| [兜底分流](https://raw.githubusercontent.com/zhihao12/qx-rules/main/fallback.list) | 没被其他表命中的境外域名 | [ConnersHua/RuleGo](https://github.com/ConnersHua/RuleGo) | 376 |
+| [Ai](https://raw.githubusercontent.com/zhihao12/qx-rules/main/ai.list) | ChatGPT、Claude、Gemini、Copilot 等 AI 服务 | [VPSDance](https://github.com/VPSDance/ai-proxy-rules) | 302 |
+| [PayPal](https://raw.githubusercontent.com/zhihao12/qx-rules/main/paypal.list) | PayPal、Venmo、Braintree 等支付域名 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 247 |
+| [交易所](https://raw.githubusercontent.com/zhihao12/qx-rules/main/crypto.list) | Binance、OKX、Bybit、Coinbase 等交易所与钱包 | [MagicRule](https://magicrule.pages.dev) + 本地补遗 | 242 |
 | [红果去广告](https://raw.githubusercontent.com/zhihao12/qx-rules/main/hongguo.list) | 红果短剧、番茄小说的广告域名 | [neishe47](https://github.com/neishe47/ios_rule_script) + 本地补遗 | 126 |
 | [Telegram](https://raw.githubusercontent.com/zhihao12/qx-rules/main/telegram.list) | Telegram、Swiftgram 等客户端 | [MagicRule](https://magicrule.pages.dev) + 本地补遗 | 65 |
-| [直连](https://raw.githubusercontent.com/zhihao12/qx-rules/main/direct.list) | 银行、支付与微信 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 57 |
-| [TikTok](https://raw.githubusercontent.com/zhihao12/qx-rules/main/tiktok.list) | TikTok | [MagicRule](https://magicrule.pages.dev) | 57 |
+| [直连](https://raw.githubusercontent.com/zhihao12/qx-rules/main/direct.list) | 银行、支付与微信 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 56 |
+| [TikTok](https://raw.githubusercontent.com/zhihao12/qx-rules/main/tiktok.list) | TikTok | [MagicRule](https://magicrule.pages.dev) | 56 |
 | [Meta](https://raw.githubusercontent.com/zhihao12/qx-rules/main/meta.list) | Facebook、Instagram、Threads、Messenger、WhatsApp、Meta AI | 本地自维护 + [MagicRule](https://magicrule.pages.dev) | 51 |
-| [Spotify](https://raw.githubusercontent.com/zhihao12/qx-rules/main/spotify.list) | Spotify | [MagicRule](https://magicrule.pages.dev) | 37 |
+| [Spotify](https://raw.githubusercontent.com/zhihao12/qx-rules/main/spotify.list) | Spotify | [MagicRule](https://magicrule.pages.dev) | 35 |
 | [社交](https://raw.githubusercontent.com/zhihao12/qx-rules/main/social.list) | Discord、Reddit | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) | 35 |
 | [规则修正](https://raw.githubusercontent.com/zhihao12/qx-rules/main/unbreak.list) | 被广告表误伤的域名放行 | [ddgksf2013/Filter](https://github.com/ddgksf2013/Filter) | 33 |
 | [Github分流](https://raw.githubusercontent.com/zhihao12/qx-rules/main/proxy.list) | GitHub 及相关域名 | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 31 |
-| [X](https://raw.githubusercontent.com/zhihao12/qx-rules/main/x.list) | X（原 Twitter） | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 31 |
+| [X](https://raw.githubusercontent.com/zhihao12/qx-rules/main/x.list) | X（原 Twitter） | [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script) + 本地补遗 | 30 |
 
 ## 2️⃣ 在 Quantumult X 里引用
 
@@ -59,6 +59,7 @@ https://raw.githubusercontent.com/zhihao12/qx-rules/main/meta.list, tag=Meta, fo
 
 - 生成器每天北京时间约 06:23 自动运行：拉取上游源，合并去重后推送
 - 备用生成：生成器源码（gen.py、sources.yaml、overrides.yaml）同仓存放，GitHub Actions 隔天 08:23 检查一次，当天主力未推送时在云端补跑一轮
+- 广告表另有一份清理名单（prune.txt，随仓库同存）：经两轮 DNS 存活检测确认的僵尸域名与极小众域名在生成时剔除，只减不误伤
 - 任一源拉取失败时保留上一版，绝不写空表
 - 本地例外与补遗规则（Meta 全家、交易所补遗、Telegram 客户端域名等）随生成器一并合入
 
