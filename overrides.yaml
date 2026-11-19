@@ -1,0 +1,857 @@
+# 本地覆盖规则（自现行主力配置 filter_local 提取，2026-11-18）
+# 每条注明来源行号 src_line（对照 QuantumultX_20261112_主力精简版.conf）与原区块注释 note
+# 顺序即现行 filter_local 原顺序；生成器里覆盖规则整体排在所有上游源之前（与现行本地优先语义一致）
+# host-keyword github 一条按 2026-11-18 裁决 A 留在新配置 filter_local，不进表（移入表内会后移被广告表与 Ai 表抢先）
+rules:
+  - out: proxy.list
+    type: host-suffix
+    value: ddgksf2013.top
+    policy: proxy
+    src_line: 282
+    note: 容易忽视的分流
+  - out: meta.list
+    type: host-suffix
+    value: instagram.com
+    policy: Meta
+    src_line: 285
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: cdninstagram.com
+    policy: Meta
+    src_line: 286
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: threads.net
+    policy: Meta
+    src_line: 287
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: threads.com
+    policy: Meta
+    src_line: 288
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: facebook.com
+    policy: Meta
+    src_line: 289
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: facebook.net
+    policy: Meta
+    src_line: 290
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: fbcdn.net
+    policy: Meta
+    src_line: 291
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: messenger.com
+    policy: Meta
+    src_line: 292
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: whatsapp.com
+    policy: Meta
+    src_line: 293
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: whatsapp.net
+    policy: Meta
+    src_line: 294
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: meta.ai
+    policy: Meta
+    src_line: 295
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: meta.com
+    policy: Meta
+    src_line: 296
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: muse.ai
+    policy: Meta
+    src_line: 297
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: museai.com
+    policy: Meta
+    src_line: 298
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: metaaivm.com
+    policy: Meta
+    src_line: 299
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: metaaiusercontent.com
+    policy: Meta
+    src_line: 300
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: atmeta.com
+    policy: Meta
+    src_line: 301
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: llamameta.net
+    policy: Meta
+    src_line: 302
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: skiv.com
+    policy: Meta
+    src_line: 303
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: ecto1.ai
+    policy: Meta
+    src_line: 304
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: fbsbx.com
+    policy: Meta
+    src_line: 305
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: ig.me
+    policy: Meta
+    src_line: 306
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: instagr.am
+    policy: Meta
+    src_line: 307
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: meta.list
+    type: host-suffix
+    value: oculus.com
+    policy: Meta
+    src_line: 308
+    note: Meta 系专用分流（2026-11-11 立，2026-11-18 把 Muse 与 Meta AI 全家并入，统一走 Meta 组，防漏真实 IP）
+  - out: streaming.list
+    type: host-suffix
+    value: crunchyroll.com
+    policy: 流媒体
+    src_line: 310
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: hotstar.com
+    policy: 流媒体
+    src_line: 311
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: viki.com
+    policy: 流媒体
+    src_line: 312
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: espn.com
+    policy: 流媒体
+    src_line: 313
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: tubitv.com
+    policy: 流媒体
+    src_line: 314
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: pluto.tv
+    policy: 流媒体
+    src_line: 315
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: dailymotion.com
+    policy: 流媒体
+    src_line: 316
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: vimeo.com
+    policy: 流媒体
+    src_line: 317
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: kick.com
+    policy: 流媒体
+    src_line: 318
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: fubo.tv
+    policy: 流媒体
+    src_line: 319
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: mubi.com
+    policy: 流媒体
+    src_line: 320
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: starz.com
+    policy: 流媒体
+    src_line: 321
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: iq.com
+    policy: 流媒体
+    src_line: 322
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: streaming.list
+    type: host-suffix
+    value: max.com
+    policy: 流媒体
+    src_line: 323
+    note: 流媒体缺口补齐（2026-11-11，无现成表的域名直指流媒体组；iq.com 仅国际版）
+  - out: x.list
+    type: host-suffix
+    value: twittercdn.com
+    policy: X
+    src_line: 325
+    note: X 遗漏补齐（2026-11-18，blackmatrix7 的 X 表未收 twittercdn.com）
+  - out: gameloft.list
+    type: host-suffix
+    value: gameloft.com
+    policy: 狂野飙车
+    src_line: 327
+    note: 狂野飙车（出口在狂野飙车组自选）
+  - out: gameloft.list
+    type: host-suffix
+    value: gameloft.net
+    policy: 狂野飙车
+    src_line: 328
+    note: 狂野飙车（出口在狂野飙车组自选）
+  - out: crypto.list
+    type: host-suffix
+    value: bitget.com
+    policy: 交易所
+    src_line: 330
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: bnappzh.co
+    policy: 交易所
+    src_line: 331
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: bnbzh.ac
+    policy: 交易所
+    src_line: 332
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: appsflayer.com
+    policy: 交易所
+    src_line: 333
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: phantom.app
+    policy: 交易所
+    src_line: 334
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: ledger.com
+    policy: 交易所
+    src_line: 335
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: crypto.list
+    type: host-suffix
+    value: token.im
+    policy: 交易所
+    src_line: 336
+    note: 交易所合表补遗（2026-11-18：bitget 合表已收、本地留双保险；其余为合表未收的域名，防遗漏）
+  - out: hongguo.list
+    type: host-keyword
+    value: pangolin
+    policy: reject
+    src_line: 358
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: pangle.io
+    policy: reject
+    src_line: 359
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: pglstatp-toutiao.com
+    policy: reject
+    src_line: 360
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: pglstatp-toutiao-b.com
+    policy: reject
+    src_line: 361
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ad.pangle.cn
+    policy: reject
+    src_line: 362
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: hongguoapp.com
+    policy: reject
+    src_line: 363
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: hongguosdk.com
+    policy: reject
+    src_line: 364
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-keyword
+    value: ad-union-sdk
+    policy: reject
+    src_line: 365
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v5-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 366
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v6-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 367
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v9-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 368
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v11-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 369
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v13-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 370
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v26-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 371
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v96-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 372
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v5-bd-daily-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 373
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: v5-se-sjy-daily-reading-ad.qznovelvod.com
+    policy: reject
+    src_line: 374
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-keyword
+    value: -ad-sign.byteimg.com
+    policy: reject
+    src_line: 375
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: praisewindow.ugsdk.cn
+    policy: reject
+    src_line: 376
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads3-normal-hl.zijieapi.com
+    policy: reject
+    src_line: 377
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads3-normal-lf.zijieapi.com
+    policy: reject
+    src_line: 378
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads3-normal-lq.zijieapi.com
+    policy: reject
+    src_line: 379
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads5-normal-hl.zijieapi.com
+    policy: reject
+    src_line: 380
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads5-normal-lf.zijieapi.com
+    policy: reject
+    src_line: 381
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ads5-normal-lq.zijieapi.com
+    policy: reject
+    src_line: 382
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame3-normal-hl.zijieapi.com
+    policy: reject
+    src_line: 383
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame3-normal-lf.zijieapi.com
+    policy: reject
+    src_line: 384
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame3-normal-lq.zijieapi.com
+    policy: reject
+    src_line: 385
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame5-normal-hl.zijieapi.com
+    policy: reject
+    src_line: 386
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame5-normal-lf.zijieapi.com
+    policy: reject
+    src_line: 387
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: minigame5-normal-lq.zijieapi.com
+    policy: reject
+    src_line: 388
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ad.toutiao.com
+    policy: reject
+    src_line: 389
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: webcast5-open-hl.douyin.com
+    policy: reject
+    src_line: 390
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: webcast5-open-hl.douyin.com.c.dsa.cdnbuild.net
+    policy: reject
+    src_line: 391
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-keyword
+    value: applog.fqnovel.com
+    policy: reject
+    src_line: 392
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-keyword
+    value: -misc.fqnovel.com
+    policy: reject
+    src_line: 393
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: log3-applog-lf.fqnovel.com
+    policy: reject
+    src_line: 394
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: log5-applog-hl.fqnovel.com
+    policy: reject
+    src_line: 395
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: log5-applog-lf.fqnovel.com
+    policy: reject
+    src_line: 396
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: rtlog3-applog-hl.fqnovel.com
+    policy: reject
+    src_line: 397
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: rtlog3-applog-lf.fqnovel.com
+    policy: reject
+    src_line: 398
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: rtlog5-applog-hl.fqnovel.com
+    policy: reject
+    src_line: 399
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: rtlog5-applog-lf.fqnovel.com
+    policy: reject
+    src_line: 400
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: mon3-misc-lf.fqnovel.com
+    policy: reject
+    src_line: 401
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: mon11-misc-hl.fqnovel.com
+    policy: reject
+    src_line: 402
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: mon11-misc-lf.fqnovel.com
+    policy: reject
+    src_line: 403
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: cnlogs.umeng.com
+    policy: reject
+    src_line: 404
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: errnewlog.umeng.com
+    policy: reject
+    src_line: 405
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ossnt-errlog.umeng.com
+    policy: reject
+    src_line: 406
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ulogs.umeng.com
+    policy: reject
+    src_line: 407
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: comfylink.com
+    policy: reject
+    src_line: 408
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: jomoxc.com
+    policy: reject
+    src_line: 409
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ndcpp.com
+    policy: reject
+    src_line: 410
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: qrstuvwxyzab.com
+    policy: reject
+    src_line: 411
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: wmzfylgdsz.com
+    policy: reject
+    src_line: 412
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: wuchuyun.com
+    policy: reject
+    src_line: 413
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: xinqiucc.com
+    policy: reject
+    src_line: 414
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: ydycdn.com
+    policy: reject
+    src_line: 415
+    note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
+  - out: hongguo.list
+    type: host-suffix
+    value: mcdn.bilivideo.cn
+    policy: reject
+    src_line: 417
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+  - out: hongguo.list
+    type: host-suffix
+    value: mcdn.bilivideo.com
+    policy: reject
+    src_line: 418
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+  - out: hongguo.list
+    type: host-suffix
+    value: szbdyd.com
+    policy: reject
+    src_line: 419
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+  - out: hongguo.list
+    type: host-suffix
+    value: edge.mountaintoys.cn
+    policy: reject
+    src_line: 420
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+  - out: hongguo.list
+    type: host-suffix
+    value: pcdn.biliapi.net
+    policy: reject
+    src_line: 421
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+  - out: hongguo.list
+    type: host
+    value: adsehera.ximalaya.com
+    policy: reject
+    src_line: 423
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host
+    value: adse.wsa.ximalaya.com
+    policy: reject
+    src_line: 424
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host
+    value: adbehavior.ximalaya.com
+    policy: reject
+    src_line: 425
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host
+    value: adbehavior.wsa.ximalaya.com
+    policy: reject
+    src_line: 426
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host-suffix
+    value: ad.ximalaya.com
+    policy: reject
+    src_line: 427
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host-suffix
+    value: adse.ximalaya.com
+    policy: reject
+    src_line: 428
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host-suffix
+    value: adse-v2.ximalaya.com
+    policy: reject
+    src_line: 429
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: hongguo.list
+    type: host-suffix
+    value: upos-app.ximalaya.com
+    policy: reject
+    src_line: 430
+    note: 喜马拉雅广告域名直拦（fmz200，2026-10-29）
+  - out: direct.list
+    type: host-suffix
+    value: icbc.com.cn
+    policy: direct
+    src_line: 432
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: ccb.com
+    policy: direct
+    src_line: 433
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: abchina.com
+    policy: direct
+    src_line: 434
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: boc.cn
+    policy: direct
+    src_line: 435
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: bankcomm.com
+    policy: direct
+    src_line: 436
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: psbc.com
+    policy: direct
+    src_line: 437
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: cmbchina.com
+    policy: direct
+    src_line: 438
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: spdb.com.cn
+    policy: direct
+    src_line: 439
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: pingan.com.cn
+    policy: direct
+    src_line: 440
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: cib.com.cn
+    policy: direct
+    src_line: 441
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: cmbc.com.cn
+    policy: direct
+    src_line: 442
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: cebbank.com
+    policy: direct
+    src_line: 443
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: citicbank.com
+    policy: direct
+    src_line: 444
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: hxb.com.cn
+    policy: direct
+    src_line: 445
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: alipay.com
+    policy: direct
+    src_line: 446
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: alipayobjects.com
+    policy: direct
+    src_line: 447
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: unionpay.com
+    policy: direct
+    src_line: 448
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: 95516.com
+    policy: direct
+    src_line: 449
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: direct.list
+    type: host-suffix
+    value: 10086.cn
+    policy: direct
+    src_line: 450
+    note: 银行/支付/中国移动直连（防支付检测代理）
+  - out: telegram.list
+    type: host-suffix
+    value: swiftgram.app
+    policy: Telegram
+    src_line: 0
+    note: 第三方 Telegram 客户端（2026-11-18 用户自述在用 Swiftgram；blackmatrix7 表收 api.swiftgram.app，此处按后缀收全域）
+  - out: telegram.list
+    type: host-suffix
+    value: imem.app
+    policy: Telegram
+    src_line: 0
+    note: 第三方 Telegram 客户端（2026-11-18 与 Swiftgram 同类一并补入；blackmatrix7 表收 api.imem.app）
+  - out: telegram.list
+    type: host-suffix
+    value: mbrx.app
+    policy: Telegram
+    src_line: 0
+    note: 第三方 Telegram 客户端（2026-11-18 与 Swiftgram 同类一并补入；blackmatrix7 表原条目）

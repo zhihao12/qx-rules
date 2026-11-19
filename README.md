@@ -58,6 +58,7 @@ https://raw.githubusercontent.com/zhihao12/qx-rules/main/meta.list, tag=Meta, fo
 ## 3️⃣ 更新方式
 
 - 生成器每天北京时间约 06:23 自动运行：拉取上游源，合并去重后推送
+- 备用生成：生成器源码（gen.py、sources.yaml、overrides.yaml）同仓存放，GitHub Actions 每天 08:23 检查，当天主力未推送时在云端补跑一轮
 - 任一源拉取失败时保留上一版，绝不写空表
 - 本地例外与补遗规则（Meta 全家、交易所补遗、Telegram 客户端域名等）随生成器一并合入
 

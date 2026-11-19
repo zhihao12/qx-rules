@@ -1,0 +1,241 @@
+# 自建订阅源清单（2026-11-18 自现行主力配置 filter_remote 提取）
+# outputs 是生成目标表（顺序即新配置里 filter_remote 的订阅顺序）
+# sources 是 19 个上游源（顺序即现行 filter_remote 原顺序，影子消解按此全局序）
+# format 为 surge 的源在生成时转 QX 类型（DOMAIN 转 host 等）；force_policy 为空表示用行内策略（仅 fanqie）
+outputs:
+  - file: hongguo.list
+    tag: 红果去广告
+    force_policy: reject
+    update_interval: 172800
+    opt_parser: true
+  - file: unbreak.list
+    tag: 规则修正
+    force_policy: direct
+    update_interval: 604800
+    opt_parser: true
+  - file: adblock.list
+    tag: 广告终结者
+    force_policy: reject
+    update_interval: 86400
+    opt_parser: true
+  - file: direct.list
+    tag: 直连
+    force_policy: direct
+    update_interval: 604800
+    opt_parser: true
+  - file: ai.list
+    tag: Ai
+    force_policy: Ai
+    update_interval: 172800
+    opt_parser: false
+  - file: x.list
+    tag: X
+    force_policy: X
+    update_interval: 604800
+    opt_parser: true
+  - file: telegram.list
+    tag: Telegram
+    force_policy: Telegram
+    update_interval: 604800
+    opt_parser: true
+  - file: proxy.list
+    tag: Github分流
+    force_policy: proxy
+    update_interval: 604800
+    opt_parser: true
+  - file: spotify.list
+    tag: Spotify音乐
+    force_policy: Spotify
+    update_interval: 86400
+    opt_parser: true
+  - file: tiktok.list
+    tag: TikTok
+    force_policy: TikTok
+    update_interval: 604800
+    opt_parser: true
+  - file: streaming.list
+    tag: 流媒体
+    force_policy: 流媒体
+    update_interval: 604800
+    opt_parser: true
+  - file: bilibili.list
+    tag: 哔哩哔哩
+    force_policy: 哔哩哔哩
+    update_interval: 604800
+    opt_parser: true
+  - file: apple.list
+    tag: 苹果服务
+    force_policy: 苹果服务
+    update_interval: 604800
+    opt_parser: true
+  - file: google.list
+    tag: Google
+    force_policy: Google
+    update_interval: 604800
+    opt_parser: true
+  - file: crypto.list
+    tag: 交易所
+    force_policy: 交易所
+    update_interval: 604800
+    opt_parser: true
+  - file: paypal.list
+    tag: PayPal
+    force_policy: PayPal
+    update_interval: 604800
+    opt_parser: true
+  - file: meta.list
+    tag: Meta
+    force_policy: Meta
+    update_interval: 604800
+    opt_parser: true
+  - file: microsoft.list
+    tag: 微软
+    force_policy: 微软
+    update_interval: 604800
+    opt_parser: true
+  - file: games.list
+    tag: 游戏
+    force_policy: 游戏
+    update_interval: 604800
+    opt_parser: true
+  - file: social.list
+    tag: 社交
+    force_policy: 社交
+    update_interval: 604800
+    opt_parser: true
+  - file: gameloft.list
+    tag: 狂野飙车
+    force_policy: 狂野飙车
+    update_interval: 604800
+    opt_parser: true
+  - file: fallback.list
+    tag: 兜底分流
+    force_policy: 兜底分流
+    update_interval: 604800
+    opt_parser: true
+  - file: asn.list
+    tag: 国内网站
+    force_policy: direct
+    update_interval: 604800
+    opt_parser: true
+sources:
+  - id: fanqie
+    url: https://raw.githubusercontent.com/neishe47/ios_rule_script/refs/heads/main/rule/QuantumultX/fanqie.list
+    format: qx
+    force_policy:
+    out: hongguo.list
+  - id: unbreak
+    url: https://raw.githubusercontent.com/ddgksf2013/Filter/master/Unbreak.list
+    format: surge
+    force_policy: direct
+    out: unbreak.list
+  - id: adrules
+    url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf
+    format: qx
+    force_policy: reject
+    out: adblock.list
+  - id: wechat
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list
+    format: qx
+    force_policy: direct
+    out: direct.list
+  - id: ai
+    url: https://raw.githubusercontent.com/VPSDance/ai-proxy-rules/main/rules/quantumult-x/global.list
+    format: qx
+    force_policy: Ai
+    out: ai.list
+  - id: twitter
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list
+    format: qx
+    force_policy: X
+    out: x.list
+  - id: telegram
+    url: https://magicrule.pages.dev/data/_shared/artifacts/Telegram_rules_d7c1725f903c116d.list
+    format: qx
+    force_policy: Telegram
+    out: telegram.list
+  - id: github
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list
+    format: qx
+    force_policy: proxy
+    out: proxy.list
+  - id: spotify
+    url: https://magicrule.pages.dev/data/_shared/artifacts/Spotify_rules_e2de74aedecac710.list
+    format: qx
+    force_policy: Spotify
+    out: spotify.list
+  - id: tiktok
+    url: https://magicrule.pages.dev/data/_shared/artifacts/TikTok_rules_91f7adc5c25cabca.list
+    format: qx
+    force_policy: TikTok
+    out: tiktok.list
+  - id: streaming
+    url: https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list
+    format: surge
+    force_policy: 流媒体
+    out: streaming.list
+  - id: streamingse
+    url: https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list
+    format: surge
+    force_policy: 哔哩哔哩
+    out: bilibili.list
+  - id: apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list
+    format: qx
+    force_policy: 苹果服务
+    out: apple.list
+  - id: google
+    url: https://magicrule.pages.dev/data/_shared/artifacts/Google_rules_d1123fc9c30418d4.list
+    format: qx
+    force_policy: Google
+    out: google.list
+  - id: crypto
+    url: https://magicrule.pages.dev/data/_shared/artifacts/Cryptocurrency_rules_0710f1a0999885c4.list
+    format: qx
+    force_policy: 交易所
+    out: crypto.list
+  - id: paypal
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/PayPal/PayPal.list
+    format: qx
+    force_policy: PayPal
+    out: paypal.list
+  - id: youtube
+    url: https://magicrule.pages.dev/data/_shared/artifacts/YouTube_rules_82fafe057cef879f.list
+    format: qx
+    force_policy: 流媒体
+    out: streaming.list
+  - id: whatsapp
+    url: https://magicrule.pages.dev/data/_shared/artifacts/Whatsapp_rules_540ba7d38c630590.list
+    format: qx
+    force_policy: Meta
+    out: meta.list
+  - id: microsoft
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list
+    format: qx
+    force_policy: 微软
+    out: microsoft.list
+  - id: game
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Game/Game.list
+    format: qx
+    force_policy: 游戏
+    out: games.list
+  - id: discord
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Discord/Discord.list
+    format: qx
+    force_policy: 社交
+    out: social.list
+  - id: reddit
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Reddit/Reddit.list
+    format: qx
+    force_policy: 社交
+    out: social.list
+  - id: conners
+    url: https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list
+    format: surge
+    force_policy: 兜底分流
+    out: fallback.list
+  - id: asnchina
+    url: https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list
+    format: qx
+    force_policy: direct
+    out: asn.list
