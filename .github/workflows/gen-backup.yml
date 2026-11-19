@@ -1,10 +1,10 @@
 name: gen-backup
 # 备用生成：主力生成器在 RakSmart 盒子上每日 06:23 (北京时间) 运行。
-# 本工作流 08:23 检查：若今天还没有新的 *.list 提交，就在 GitHub 云上补跑一轮，
-# 避免盒子单点。手动触发时可勾选 force 强制生成（用于验证备用链路）。
+# 本工作流隔天 08:23 检查一次：若今天还没有新的 *.list 提交，就在 GitHub 云上
+# 补跑一轮，避免盒子单点。手动触发时可勾选 force 强制生成（用于验证备用链路）。
 on:
   schedule:
-    - cron: '23 0 * * *'
+    - cron: '23 0 */2 * *'
   workflow_dispatch:
     inputs:
       force:
