@@ -8,8 +8,8 @@
 | --- | --- |
 | [qx/hongguo-filter.conf](qx/hongguo-filter.conf) | Quantumult X 分流规则（filter_remote 订阅） |
 | [qx/hongguo-rewrite.conf](qx/hongguo-rewrite.conf) | Quantumult X 重写（rewrite_remote 订阅，需 MITM） |
-| [shadowrocket/hongguo.module](shadowrocket/hongguo.module) | Shadowrocket 模块 |
-| [domains.txt](domains.txt) | 纯域名清单（AdGuard Home / Pi-hole / hosts） |
+
+本目录只放 Quantumult X 能直接订阅的格式，其他客户端请自行转换。
 
 ## Quantumult X 用法
 
