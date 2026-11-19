@@ -1,0 +1,49 @@
+# 红果去广告 · 纯域名清单（一行一个，供 AdGuard Home / Pi-hole / hosts 等使用）
+# 维护：zhihao12 ｜ https://github.com/zhihao12/qx-rules/tree/main/hongguo
+# 说明：通配与关键词类规则无法用纯域名表达，未收录；带 # 的为可选或有争议条目。
+
+# 穿山甲 / Pangle 广告 SDK
+api-access.pangolin-sdk-toutiao.com
+api-access.pangolin-sdk-toutiao-b.com
+api-access.pangolin-sdk-toutiao1.com
+api-access.pangolin-sdk-toutiao2.com
+api-access.pangolin-sdk-toutiao3.com
+api-access.pangolin-sdk-toutiao4.com
+api-access.pangolin-sdk-toutiao5.com
+log-api.pangolin-sdk-toutiao.com
+gromore.pangolin-sdk-toutiao.com
+ether-pack.pangolin-sdk-toutiao.com
+pglstatp-toutiao.com
+pglstatp-toutiao-b.com
+
+# 字节广告 API
+ads3-normal.zijieapi.com
+ads5-normal.zijieapi.com
+ads3-normal-lf.zijieapi.com
+ads5-normal-lf.zijieapi.com
+
+# 广告素材签名域
+p6-ad-sign.byteimg.com
+p9-ad-sign.byteimg.com
+# p3-ad-sign.byteimg.com 与抖音商城图片共用，抖音图片异常就不要加下面这行
+p3-ad-sign.byteimg.com
+
+# 广告跳转与效果追踪
+zlink.ugsdk.cn
+zlink.toutiao.com
+effect.snssdk.com
+ichannel.snssdk.com
+
+# 埋点 / 上报
+mon.toutiaocloud.net
+mon.toutiaocloud.com
+i.snssdk.com
+i-lq.snssdk.com
+is.snssdk.com
+is-lq.snssdk.com
+mcs.snssdk.com
+dig.bdurl.net
+log3-applog.fqnovel.com
+log5-applog.fqnovel.com
+rtlog3-applog.fqnovel.com
+rtlog5-applog.fqnovel.com
