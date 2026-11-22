@@ -1,6 +1,9 @@
 # adblock.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-22 17:23:01
-# rules: 286743
+# generated: 2026-11-22 17:28:08
+# rules: 286746
+host-suffix, mcdn.bilivideo.cn
+host-suffix, mcdn.bilivideo.com
+host-suffix, pcdn.biliapi.net
 host-suffix, 0.avmarket.rs
 host-suffix, 0.myikas.com
 host-suffix, 0.net.easyjet.com

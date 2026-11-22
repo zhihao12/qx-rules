@@ -1,6 +1,6 @@
 # hongguo.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-22 17:23:01
-# rules: 126
+# generated: 2026-11-22 17:28:08
+# rules: 123
 host-keyword, pangolin
 host-suffix, pangle.io
 host-suffix, pglstatp-toutiao.com
@@ -59,11 +59,8 @@ host-suffix, wmzfylgdsz.com
 host-suffix, wuchuyun.com
 host-suffix, xinqiucc.com
 host-suffix, ydycdn.com
-host-suffix, mcdn.bilivideo.cn
-host-suffix, mcdn.bilivideo.com
 host-suffix, szbdyd.com
 host-suffix, edge.mountaintoys.cn
-host-suffix, pcdn.biliapi.net
 host, adsehera.ximalaya.com
 host, adse.wsa.ximalaya.com
 host, adbehavior.ximalaya.com
