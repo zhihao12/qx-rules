@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "id": "subinfo.sanzao",
+      "name": "订阅信息",
+      "keys": ["subinfo_name", "subinfo_url"],
+      "settings": [
+        {
+          "id": "subinfo_name",
+          "name": "订阅名称",
+          "val": "YToo",
+          "type": "text",
+          "desc": "通知里显示的名称"
+        },
+        {
+          "id": "subinfo_url",
+          "name": "订阅链接",
+          "val": "",
+          "type": "text",
+          "desc": "机场订阅链接，定时任务读取它查询剩余流量与到期时间"
+        }
+      ],
+      "author": "sanzao",
+      "repo": "https://github.com/zhihao12/qx-rules",
+      "des": "定时查询机场订阅的剩余流量与到期时间，配合 Quantumult X 定时任务推送通知"
+    }
+  ]
+}
