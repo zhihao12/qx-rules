@@ -1,5 +1,5 @@
 # google.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-22 17:28:08
+# generated: 2026-11-23 00:55:35
 # rules: 834
 host, android.googlesource.com
 host, avail.googleflights.net
