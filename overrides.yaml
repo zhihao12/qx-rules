@@ -645,18 +645,18 @@ rules:
     policy: reject
     src_line: 415
     note: 红果去广告融合版移植（2026-11-12，源 atopsecret/SurgeScripts hongguo 融合版，替代 hongguo-lite-plus；含 Tartarus 版红果自有域名 3 条）
-  - out: hongguo.list
+  - out: adblock.list
     type: host-suffix
     value: mcdn.bilivideo.cn
     policy: reject
     src_line: 417
-    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
-  - out: hongguo.list
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）；2026-11-23 用户令改并入 adblock.list（原置 hongguo.list，该表 2026-11-20 已退订致此条失效）
+  - out: adblock.list
     type: host-suffix
     value: mcdn.bilivideo.com
     policy: reject
     src_line: 418
-    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）；2026-11-23 用户令改并入 adblock.list（原置 hongguo.list，该表 2026-11-20 已退订致此条失效）
   - out: hongguo.list
     type: host-suffix
     value: szbdyd.com
@@ -669,12 +669,12 @@ rules:
     policy: reject
     src_line: 420
     note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
-  - out: hongguo.list
+  - out: adblock.list
     type: host-suffix
     value: pcdn.biliapi.net
     policy: reject
     src_line: 421
-    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）
+    note: B站 PCDN 拦截（2026-11-13，源 Tartarus2014 Bilibili_Anti_PCDN：拦 PCDN 调度域名，原插件的 AND 组合条 QX 无法表达，已知主机 pcdn.biliapi.net 已显式覆盖）；2026-11-23 用户令改并入 adblock.list（原置 hongguo.list，该表 2026-11-20 已退订致此条失效）
   - out: hongguo.list
     type: host
     value: adsehera.ximalaya.com
