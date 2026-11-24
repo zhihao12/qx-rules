@@ -1,6 +1,6 @@
 # google.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-23 17:23:01
-# rules: 834
+# generated: 2026-11-24 17:23:01
+# rules: 839
 host, android.googlesource.com
 host, avail.googleflights.net
 host, c.android.clients.google.com
@@ -200,7 +200,9 @@ host-suffix, blogger.googleusercontent.com
 host-suffix, blogspot.ae
 host-suffix, blogspot.al
 host-suffix, blogspot.am
+host-suffix, blogspot.ba
 host-suffix, blogspot.be
+host-suffix, blogspot.bg
 host-suffix, blogspot.bj
 host-suffix, blogspot.ca
 host-suffix, blogspot.cf
@@ -245,6 +247,7 @@ host-suffix, blogspot.jp
 host-suffix, blogspot.kr
 host-suffix, blogspot.li
 host-suffix, blogspot.lt
+host-suffix, blogspot.lu
 host-suffix, blogspot.md
 host-suffix, blogspot.mk
 host-suffix, blogspot.mx
@@ -261,8 +264,10 @@ host-suffix, blogspot.ru
 host-suffix, blogspot.se
 host-suffix, blogspot.sg
 host-suffix, blogspot.si
+host-suffix, blogspot.sk
 host-suffix, blogspot.sn
 host-suffix, blogspot.td
+host-suffix, blogspot.tw
 host-suffix, blogspot.ug
 host-suffix, blogspot.vn
 host-suffix, brocaproject.com

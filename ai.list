@@ -1,6 +1,6 @@
 # ai.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-23 17:23:01
-# rules: 302
+# generated: 2026-11-24 17:23:01
+# rules: 303
 host-suffix, firefly.adobe.com, Ai
 host-suffix, firefly.adobe.io, Ai
 host, aws-language-servers.us-east-1.amazonaws.com, Ai
@@ -176,6 +176,7 @@ host-suffix, flow.google, Ai
 host-suffix, flow.google.com, Ai
 host-suffix, geller-pa.googleapis.com, Ai
 host-suffix, gemini.gstatic.com, Ai
+host-suffix, gemma.ai, Ai
 host-suffix, jules.google, Ai
 host-suffix, jules.google.com, Ai
 host-suffix, labs.google, Ai
