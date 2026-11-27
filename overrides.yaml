@@ -855,3 +855,15 @@ rules:
     policy: Telegram
     src_line: 0
     note: 第三方 Telegram 客户端（2026-11-18 与 Swiftgram 同类一并补入；blackmatrix7 表原条目）
+  - out: ai.list
+    type: host-suffix
+    value: cue.im
+    policy: Ai
+    src_line: 0
+    note: Cue（Manus 个人智能体应用）域名补入（2026-11-27 用户令补全；此前无表覆盖、落兜底分流；host-suffix 收全域含 bot.cue.im）
+  - out: ai.list
+    type: host-suffix
+    value: manus.ai
+    policy: Ai
+    src_line: 0
+    note: Manus 备用域补全（2026-11-27；manus.im 已由上游 Ai 源收录，此域此前无覆盖）

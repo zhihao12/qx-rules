@@ -1,6 +1,8 @@
 # ai.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-26 17:23:01
-# rules: 303
+# generated: 2026-11-26 20:17:09
+# rules: 305
+host-suffix, cue.im, Ai
+host-suffix, manus.ai, Ai
 host-suffix, firefly.adobe.com, Ai
 host-suffix, firefly.adobe.io, Ai
 host, aws-language-servers.us-east-1.amazonaws.com, Ai
