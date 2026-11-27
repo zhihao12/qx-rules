@@ -1,6 +1,6 @@
 # google.list | 自建订阅表（gen.py 生成，勿手改）
-# generated: 2026-11-26 20:17:09
-# rules: 839
+# generated: 2026-11-27 17:23:01
+# rules: 837
 host, android.googlesource.com
 host, avail.googleflights.net
 host, c.android.clients.google.com
@@ -37,7 +37,6 @@ host, gonglchuangl.net
 host, google-ohttp-relay-safebrowsing.fastly-edge.com
 host, googleapis-cn.com
 host, googleapps-cn.com
-host, googletraveladservices-cn.com
 host, gstatic-cn.com
 host, gstaticadssl.l.google.com
 host, i.pki.goog
@@ -634,7 +633,6 @@ host-suffix, googlescholar.com
 host-suffix, googlesource.com
 host-suffix, googlestore.com
 host-suffix, googlesverige.com
-host-suffix, googletraveladservices-cn.com
 host-suffix, googleusercontent.com
 host-suffix, googleventures.com
 host-suffix, googlezip.net
